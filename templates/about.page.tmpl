@@ -1,0 +1,6 @@
+{{ template "base" . }}
+
+{{ define "content" }}
+    <h1>About</h1>
+    <p>The owner has at least {{ index .IntData "owner" }} usernames</p>
+{{ end }}
